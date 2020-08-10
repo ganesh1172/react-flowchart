@@ -10,10 +10,11 @@
 }
 .container{
     width: 500px;
-    height: 500p;
+    height: 500px;
     margin: 10px auto;
-    border: 1px solid #000000;
+    /* border: 1px solid #000000; */
     background-color: #F1E9E7 ;
+    border-radius: 5px;
 }
 .elelemnt_wrap {
     padding: 0px 50px;
