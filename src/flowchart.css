@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #8A8483;
+    font-size: 1rem;
+}
+.container{
+    width: 500px;
+    height: 500p;
+    margin: 10px auto;
+    border: 1px solid #000000;
+    background-color: #F1E9E7 ;
+}
+.elelemnt_wrap {
+    padding: 0px 50px;
+  }
+  
+  .element {
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    width: 100px;
+    padding: 10px;
+    background-color: #ffffff;
+    box-shadow:  2px 2px 6px #857F7E;
+    margin: 0 auto 0 auto;
+    border-radius: 5px;
+  }
+  
+  .del_element {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow:  2px 2px 6px red;
+  }
+  
+  .element .del_element {
+    display: none;
+  }
+  .element:hover .del_element {
+    display: block;
+  }
+  
+  .row {
+    justify-content: center;
+    display: flex;
+}
+  .arrow{
+    width: 3px;
+    height: 20px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+.add_element {
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #fff;
+  text-align: center;
+  margin: 0px auto;
+  transition-duration: 0.3s;
+  font-size: 20px;
+}
+.add_element:hover {
+  transform: scale(1.1);
+  color: #fff;
+  background-color: #26EE3A;
+  box-shadow:  2px 2px 6px #857F7E;
+}
+
+.bi_arrow{
+  width: 3px;
+  height: 30px;
+  background-color: #000000;
+  margin: 0px auto;
+  transform: rotate(90deg);
+}
+  
